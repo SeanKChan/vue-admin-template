@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "npx vue-cli-service serve",
+    "start": "npm run dev",
     "build:prod": "npx vue-cli-service build",
     "build:stage": "npx vue-cli-service build --mode staging",
     "preview": "node build/index.js --preview",
@@ -37,6 +38,7 @@
     "babel-eslint": "10.0.1",
     "babel-jest": "23.6.0",
     "chalk": "2.4.2",
+    "commitizen": "^3.1.1",
     "connect": "3.6.6",
     "cz-conventional-changelog": "^2.1.0",
     "eslint": "5.15.3",

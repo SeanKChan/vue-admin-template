@@ -25,14 +25,11 @@ git clone https://github.com/zybank-fe/vue-admin-template.git
 # 进入项目目录
 cd vue-admin-template
 
-# 安装依赖
-npm install -g yarn
-
 # 建议不要直接使用 cnpm 安装以来，会有各种诡异的 bug.
-yarn install --registry=https://registry.npm.taobao.org
+npm install
 
 # 启动服务
-yarn run dev
+npm run dev
 ```
 
 浏览器访问 [http://localhost:9528](http://localhost:9528)
@@ -41,23 +38,23 @@ yarn run dev
 
 ```bash
 # 构建测试环境
-yarn run build:stage
+npm run build:stage
 
 # 构建生产环境
-yarn run build:prod
+npm run build:prod
 ```
 
 ## 其它
 
 ```bash
 # 预览发布环境效果
-yarn run preview
+npm run preview
 
 # 预览发布环境效果 + 静态资源分析
-yarn run preview -- --report
+npm run preview -- --report
 
 # 代码格式检查
-yarn run lint
+npm run lint
 
 # 代码格式检查并自动修复
 npm run lint -- --fix
