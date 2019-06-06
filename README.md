@@ -32,7 +32,7 @@ npm install
 npm run dev
 ```
 
-浏览器访问 [http://localhost:9528](http://localhost:9528)
+This will automatically open http://localhost:9528
 
 ## 发布
 
