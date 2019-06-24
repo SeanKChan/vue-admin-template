@@ -793,6 +793,31 @@
   resolved "https://registry.npm.taobao.org/@nodelib/fs.stat/download/@nodelib/fs.stat-1.1.3.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40nodelib%2Ffs.stat%2Fdownload%2F%40nodelib%2Ffs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha1-K1o6s/kYzKSKjHVMCBaOPwPrphs=
 
+"@pawelgalazka/cli-args@1.1.3":
+  version "1.1.3"
+  resolved "https://registry.npm.taobao.org/@pawelgalazka/cli-args/download/@pawelgalazka/cli-args-1.1.3.tgz#7880b7e4213df516f79b200438290f3966a22428"
+  integrity sha1-eIC35CE99Rb3myAEOCkPOWaiJCg=
+
+"@pawelgalazka/cli@2.0.2":
+  version "2.0.2"
+  resolved "https://registry.npm.taobao.org/@pawelgalazka/cli/download/@pawelgalazka/cli-2.0.2.tgz#785afbf7a1c4fe1381805d779d052bf7ffabc486"
+  integrity sha1-eFr796HE/hOBgF13nQUr9/+rxIY=
+  dependencies:
+    "@pawelgalazka/cli-args" "1.1.3"
+    "@pawelgalazka/middleware" "1.0.0"
+    chalk "2.4.2"
+    lodash "4.17.11"
+
+"@pawelgalazka/middleware@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.npm.taobao.org/@pawelgalazka/middleware/download/@pawelgalazka/middleware-1.0.0.tgz#b772fecd221903fb41a7be799ab092c72ad24b68"
+  integrity sha1-t3L+zSIZA/tBp755mrCSxyrSS2g=
+
+"@pawelgalazka/shell@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.npm.taobao.org/@pawelgalazka/shell/download/@pawelgalazka/shell-2.0.0.tgz#7174a2d904375e435f6a012322713234c00e75cd"
+  integrity sha1-cXSi2QQ3XkNfagEjInEyNMAOdc0=
+
 "@soda/friendly-errors-webpack-plugin@^1.7.1":
   version "1.7.1"
   resolved "https://registry.npm.taobao.org/@soda/friendly-errors-webpack-plugin/download/@soda/friendly-errors-webpack-plugin-1.7.1.tgz#706f64bcb4a8b9642b48ae3ace444c70334d615d"
@@ -6429,11 +6454,6 @@ lodash.memoize@^4.1.2:
   resolved "https://registry.npm.taobao.org/lodash.memoize/download/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
   integrity sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=
 
-lodash.padend@4.6.1:
-  version "4.6.1"
-  resolved "https://registry.npm.taobao.org/lodash.padend/download/lodash.padend-4.6.1.tgz#53ccba047d06e158d311f45da625f4e49e6f166e"
-  integrity sha1-U8y6BH0G4VjTEfRdpiX05J5vFm4=
-
 lodash.sortby@^4.7.0:
   version "4.7.0"
   resolved "https://registry.npm.taobao.org/lodash.sortby/download/lodash.sortby-4.7.0.tgz#edd14c824e2cc9c1e0b0a1b42bb5210516a42438"
@@ -6661,19 +6681,6 @@ methods@~1.1.2:
   version "1.1.2"
   resolved "https://registry.npm.taobao.org/methods/download/methods-1.1.2.tgz#5529a4d67654134edcc5266656835b0f851afcee"
   integrity sha1-VSmk1nZUE07cxSZmVoNbD4Ua/O4=
-
-microargs@1.1.2:
-  version "1.1.2"
-  resolved "https://registry.npm.taobao.org/microargs/download/microargs-1.1.2.tgz#725fbedcf120db12317d3eda534d3f19af867733"
-  integrity sha1-cl++3PEg2xIxfT7aU00/Ga+GdzM=
-
-microcli@1.3.3:
-  version "1.3.3"
-  resolved "https://registry.npm.taobao.org/microcli/download/microcli-1.3.3.tgz#27f1b330b0f935be6314f298972105a325f731e7"
-  integrity sha1-J/GzMLD5Nb5jFPKYlyEFoyX3Mec=
-  dependencies:
-    lodash "4.17.11"
-    microargs "1.1.2"
 
 micromatch@3.1.0:
   version "3.1.0"
@@ -7346,11 +7353,6 @@ obuf@^1.0.0, obuf@^1.1.2:
   version "1.1.2"
   resolved "https://registry.npm.taobao.org/obuf/download/obuf-1.1.2.tgz#09bea3343d41859ebd446292d11c9d4db619084e"
   integrity sha1-Cb6jND1BhZ69RGKS0RydTbYZCE4=
-
-omelette@0.4.5:
-  version "0.4.5"
-  resolved "https://registry.npm.taobao.org/omelette/download/omelette-0.4.5.tgz#f16bc477b7e263b59796a65661964e4762e9ae74"
-  integrity sha1-8WvEd7fiY7WXlqZWYZZOR2LprnQ=
 
 on-finished@~2.3.0:
   version "2.3.0"
@@ -8867,16 +8869,6 @@ run-queue@^1.0.0, run-queue@^1.0.3:
   dependencies:
     aproba "^1.1.1"
 
-runjs@^4.3.2:
-  version "4.4.2"
-  resolved "https://registry.npm.taobao.org/runjs/download/runjs-4.4.2.tgz#3adf5b53ad1b119b846b3cae1334e9ab7ff34920"
-  integrity sha1-Ot9bU60bEZuEazyuEzTpq3/zSSA=
-  dependencies:
-    chalk "2.3.0"
-    lodash.padend "4.6.1"
-    microcli "1.3.3"
-    omelette "0.4.5"
-
 rx-lite-aggregates@^4.0.8:
   version "4.0.8"
   resolved "https://registry.npm.taobao.org/rx-lite-aggregates/download/rx-lite-aggregates-4.0.8.tgz#753b87a89a11c95467c4ac1626c4efc4e05c67be"
@@ -9776,6 +9768,15 @@ tar@^4:
     mkdirp "^0.5.0"
     safe-buffer "^5.1.2"
     yallist "^3.0.3"
+
+tasksfile@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.npm.taobao.org/tasksfile/download/tasksfile-5.1.0.tgz#ac9f4b948c9edb9c2d0ffecf96ccb5065bc6b330"
+  integrity sha1-rJ9LlIye25wtD/7Plsy1BlvGszA=
+  dependencies:
+    "@pawelgalazka/cli" "2.0.2"
+    "@pawelgalazka/shell" "2.0.0"
+    chalk "2.3.0"
 
 terser-webpack-plugin@^1.1.0, terser-webpack-plugin@^1.2.3:
   version "1.3.0"
