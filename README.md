@@ -2,25 +2,25 @@
 
 > 这是一个极简的 vue admin 管理后台。它只包含了 Element UI & axios & iconfont & permission control & lint，这些搭建后台必要的东西。
 
-[线上地址](http://zybank-fe.github.io/vue-admin-template)
+[线上地址](https://git.io/fjRCx)
 
 ## Extra
 
-如果你想要根据用户角色来动态生成侧边栏和 router，你可以使用该分支[permission-control](https://github.com/zybank-fe/vue-admin-template/tree/permission-control)
+如果你想要根据用户角色来动态生成侧边栏和 router，你可以使用该分支[permission-control](https://github.com/SeanKChan/vue-admin-template/tree/permission-control)
 
 ## 相关项目
 
-[vue-element-admin](https://github.com/zybank-fe/vue-element-admin)
+[vue-element-admin](https://github.com/SeanKChan/vue-element-admin)
 
-[electron-vue-admin](https://github.com/zybank-fe/electron-vue-admin)
+[electron-vue-admin](https://github.com/SeanKChan/electron-vue-admin)
 
-[vue-typescript-admin-template](https://github.com/zybank-fe/vue-typescript-admin-template)
+[vue-typescript-admin-template](https://github.com/SeanKChan/vue-typescript-admin-template)
 
 ## Build Setup
 
 ```bash
 # 克隆项目
-git clone https://github.com/zybank-fe/vue-admin-template.git
+git clone https://github.com/SeanKChan/vue-admin-template.git
 
 # 进入项目目录
 cd vue-admin-template
