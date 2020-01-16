@@ -1,60 +1,66 @@
-# vue-admin-template
+# vue-admin-template（后台项目基于此开发）
 
-English | [简体中文](./README-zh.md)
+> 这是一个极简的 vue admin 管理后台。它只包含了 Element UI & axios & iconfont & permission control & lint，这些搭建后台必要的东西。
 
-> A minimal vue admin template with Element UI & axios & iconfont & permission control & lint
+[线上地址](https://git.io/fjRCx)
 
-**Live demo:** http://panjiachen.github.io/vue-admin-template
+## Extra
 
+如果你想要根据用户角色来动态生成侧边栏和 router，你可以使用该分支[permission-control](https://github.com/SeanKChan/vue-admin-template/tree/permission-control)
 
-**The current version is `v4.0+` build on `vue-cli`. If you want to use the old version , you can switch branch to [tag/3.11.0](https://github.com/PanJiaChen/vue-admin-template/tree/tag/3.11.0), it does not rely on `vue-cli`**
+## 相关项目
+
+[vue-element-admin](https://github.com/SeanKChan/vue-element-admin)
+
+[electron-vue-admin](https://github.com/SeanKChan/electron-vue-admin)
+
+[vue-typescript-admin-template](https://github.com/SeanKChan/vue-typescript-admin-template)
 
 ## Build Setup
 
-
 ```bash
-# clone the project
-git clone https://github.com/PanJiaChen/vue-admin-template.git
+# 克隆项目
+git clone https://github.com/SeanKChan/vue-admin-template.git
 
-# enter the project directory
+# 进入项目目录
 cd vue-admin-template
 
-# install dependency
+# 建议不要直接使用 cnpm 安装以来，会有各种诡异的 bug.
 npm install
 
-# develop
+# 启动服务
 npm run dev
 ```
 
 This will automatically open http://localhost:9528
 
-## Build
+## 发布
 
 ```bash
-# build for test environment
+# 构建测试环境
 npm run build:stage
 
-# build for production environment
+# 构建生产环境
 npm run build:prod
 ```
 
-## Advanced
+## 其它
 
 ```bash
-# preview the release environment effect
+# 预览发布环境效果
 npm run preview
 
-# preview the release environment effect + static resource analysis
+# 预览发布环境效果 + 静态资源分析
 npm run preview -- --report
 
-# code format check
+# 代码格式检查
 npm run lint
 
-# code format check and auto fix
+# 代码格式检查并自动修复
 npm run lint -- --fix
 ```
 
-Refer to [Documentation](https://panjiachen.github.io/vue-element-admin-site/guide/essentials/deploy.html) for more information
+更多信息请参考 [使用文档](https://panjiachen.github.io/vue-element-admin-site/zh/)
 
 ## Demo
 

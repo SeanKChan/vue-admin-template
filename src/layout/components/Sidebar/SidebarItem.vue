@@ -93,3 +93,11 @@ export default {
   }
 }
 </script>
+<style lang="scss">
+.menu-wrapper {
+  /deep/ .el-menu-item {
+    height: 52px;
+    line-height: 52px;
+  }
+}
+</style>
